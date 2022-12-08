@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /*
  * main - print a line of words using the put function
  *
