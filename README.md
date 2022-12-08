@@ -1,2 +1,3 @@
 # alx-low_level_programming
 first C program
+yes my first step in c programing from alx ofcource...
