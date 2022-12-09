@@ -1,28 +1,23 @@
 #include <stdio.h>
 /**
- * main - prints allpossible differnt combos of two digits
+ * main - prints all possible differnt combos of two digits
  * Return: 0
  */
 int main(void)
 {
-	int ones = '0';
-	int tens = '0';
+	int dig1, dig2;
 
-	for (tens = '0'; tens <= '9'; tens++)
+	for (dig1 = 0; dig1 < 9; dig1++)
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		for (dig2 = dig2 + 1; dig2 < 10; dig2++)
 		{
-				if (!((ones == tens) || (tens > ones)))
-				{
-					putchar(tens);
-					putchar(ones);
-					if (!(ones == '9' && tens == '8'))
-					{
+			putchar((dig1 % 10) + '0');
+			putchar((dig2 % 10) + '0');
 
-						putchar(',');
-						putchar(' ');
-					}
-				}
+			if (dig1 == 8 && dig2 == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
 	}
 
