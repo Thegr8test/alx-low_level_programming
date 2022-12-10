@@ -9,7 +9,7 @@ int main(void)
 
 	for (dig1 = 0; dig1 < 9; dig1++)
 	{
-		for (dig2 = dig2 + 1; dig2 < 10; dig2++)
+		for (dig2 = dig1 + 1; dig2 < 10; dig2++)
 		{
 			putchar((dig1 % 10) + '0');
 			putchar((dig2 % 10) + '0');
