@@ -1,19 +1,18 @@
 #include "main.h"
-
 /**
-  *main - print characters
+  *main - prints chars
   *Return: 0
   */
-
 int main(void)
 {
-	char *word = "_putchar";
-
-	for (int i = 0; i < strylen(word); i++)
-	{
-		putchar(word[i]);
-	}
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
 
 	return (0);
 }
-
