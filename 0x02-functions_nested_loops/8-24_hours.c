@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  *jack_bouer - prints minutes
+  *jack_bauer - prints minutes
   */
 void jack_bauer(void)
 {
