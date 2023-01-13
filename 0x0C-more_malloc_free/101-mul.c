@@ -25,7 +25,7 @@ void _print(char *str, int l)
 }
 
 /**
- * mul - multiplies a char with a string and places the answer in the destination
+ * mul - mult  a char with a str & places the answer in the destination
  * @n: char to multiply
  * @num: string to multiply
  * @num_index: last non NULL index of num
