@@ -6,7 +6,7 @@
 void funstory(void) __attribute__ ((constructor));
 
 /**
- * myStartupFun - implementation of myStartupFun
+ * funstory - implementation of myStartupFun
  */
 void funstory(void)
 {
